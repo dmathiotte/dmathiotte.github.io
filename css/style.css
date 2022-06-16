@@ -40,9 +40,13 @@
 
 .navicon
 {
-    color: lightgrey;
     width: 25px;
     height: 25px;
+    display: block;
+}
+.navigation:hover .navicon
+{
+    display: none;
 }
 
 .header
@@ -84,7 +88,7 @@
     color: #C0C0C0;
     -webkit-transition: 1s ease;
     transition: 1s ease;
-    border-radius: 25px;
+    border-radius: 10px;
     justify-self: flex-end;
     display: flex;
     flex-wrap: nowrap;
@@ -107,6 +111,17 @@
     ". about ."
     ". portfolio ."
     ". contact .";
+}
+
+.naviconhover
+{
+    display: none;
+}
+.navigation:hover .naviconhover
+{
+    display: block;
+    width: 25px;
+    height: 25px;
 }
 
 .title
@@ -155,7 +170,6 @@
     -webkit-transform: translate(0px, 70px);
     -o-transform: translate(0px, 70px);
     transform: translate(0px, 70px);
-    color: white;
 }
 
 .about
