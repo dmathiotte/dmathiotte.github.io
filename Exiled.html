@@ -45,7 +45,10 @@
           </a>
         </div>
     </header>
-    <div class="main" id="  particles-js">
+
+    <div class="test">
+      <div class="particles-l" id="particles-jsl"></div>
+      <div class="main">
       <div class="space video">
         <div>
           <div class="maincontent">
@@ -107,12 +110,12 @@
           </div>
         </div>
       </div>
+      </div>
+      <div class="particles-r" id="particles-jsr"></div>
     </div>
-
     <script>
-      particlesJS.load('particles-js', 'particle_cfg.json', function(){
-      console.log('callback - particles.js config loaded');
-      });
+      particlesJS.load('particles-jsr', 'particle_cfg.json');
+      particlesJS.load('particles-jsl', 'particle_cfg.json');
     </script>
   </body>
 </html>

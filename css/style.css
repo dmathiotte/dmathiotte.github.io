@@ -12,7 +12,7 @@
 {
     display: flex;
     flex-direction: column;
-    background-color: lightgray;
+    background-color: rgb(232, 232, 232);
 }
 
 .containerheader
@@ -134,12 +134,6 @@
     height: 100%;
     font-family:'Poppins', sans-serif;
     font-weight: 200;
-    background: lightgray;
-    grid-template-columns: 2fr 6fr 2fr;
-    grid-template-areas: 
-    ". about ."
-    ". portfolio ."
-    ". contact .";
 }
 
 iframe
@@ -255,6 +249,8 @@ iframe
 .space 
 {
     padding-top: 70px;
+    margin-right: 5em;
+    margin-left: 5em;
 }
  
 .projectname 
@@ -342,4 +338,33 @@ iframe
     -o-transition: 0.7s ease-in-out;
     transition: 0.7s ease-in-out;
     border-radius: 35px;
+}
+
+.main
+{
+    grid-area: main;
+}
+
+#particles-js {
+    font-family:'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+.test
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.particles-l
+{
+    grid-area: l;
+    background-color: white;
+}
+
+.particles-r
+{
+    grid-area: r;
+    background-color: white;
 }
