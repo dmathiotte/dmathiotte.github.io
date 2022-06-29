@@ -8,6 +8,7 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+   <script src="particles.js-master/particles.js"></script>
   </head>
 
   <body class="body">
@@ -44,14 +45,14 @@
           </a>
         </div>
     </header>
-    <div class="main">
-      <div class="space">
+    <div class="main" id="  particles-js">
+      <div class="space video">
         <div>
           <div class="maincontent">
               <p class="title">
                 Exiled
               </p>
-              <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/t09_A__lObI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe class="" width="720" height="480" src="https://www.youtube.com/embed/t09_A__lObI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -107,5 +108,11 @@
         </div>
       </div>
     </div>
+
+    <script>
+      particlesJS.load('particles-js', 'particle_cfg.json', function(){
+      console.log('callback - particles.js config loaded');
+      });
+    </script>
   </body>
 </html>
