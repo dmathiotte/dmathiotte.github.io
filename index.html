@@ -8,11 +8,12 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+   <script src="particles.js-master/particles.js"></script>
   </head>
   
   <body class="body">
-    <script src="js/main.js"></script>
     <header class="header">
+
       <div class="titleHeader"> Mathiotte Damien - Gameplay Programmer</div>
       <div class="containerheader">
         <a href="index.html#Me" class="navigation">
@@ -45,56 +46,58 @@
         </a>
       </div>
     </header>
-    <div >
+
+    <div class="test">
+      <div class="particles-l" id="particles-jsl"></div>
       <div class="main">
-          <div class="about space">
-            <div class="">
-              <div class="maincontent">
-                <h1 class="title" id="Me">About me</h1>
-                <p class="content"> 
-                  My name is Damien Mathiotte, I'm a Game Programmer Student at the SAE Institute Paris.
-                </p>
-                <p class="content"> I love create new Gameplay Mechanics or tweaking to have the perfect feeling.</p>
-              </div>
+        <div class="about space">
+          <div class="">
+            <div class="maincontent">
+              <h1 class="title" id="Me">About me</h1>
+              <p class="content"> 
+                My name is Damien Mathiotte, I'm a Game Programmer Student at the SAE Institute Paris.
+              </p>
+              <p class="content"> I love create new Gameplay Mechanics or tweaking to have the perfect feeling.</p>
             </div>
           </div>
+        </div>
         <div class="portfolio space">
-            <div class="maincontent">
-              <p class="title" id="Project">Portfolio</p>
-              <div class="projects">
-                <a href="Exiled.html" class="projectlink">
-                  <div class="project">
-                    <img src="img/Cover.PNG" class="img zoom" alt="Exiled">
-                    <div class="project_gradiant zoom ">
-                     <h1 class="projectname move">Exiled</h1>
+          <div class="maincontent">
+            <p class="title" id="Project">Portfolio</p>
+            <div class="projects">
+              <a href="Exiled.html" class="projectlink">
+                <div class="project">
+                  <img src="img/Cover.PNG" class="img zoom" alt="Exiled">
+                  <div class="project_gradiant zoom ">
+                    <h1 class="projectname move">Exiled</h1>
                     <h2 class="description movedes">
                       Incarnate a Exiled and try to kill the demon
                     </h2>
                   </div>
-                  </div>
-                </a>
-                <a href="GreenTide.html" class="projectlink">
-                  <div class="project">
-                    <img src="img/greenTide_cover.png" class="img zoom" alt="Exiled">
-                    <div class="project_gradiant zoom ">
-                     <h1 class="projectname move">Green Tide</h1>
+                </div>
+              </a>
+              <a href="GreenTide.html" class="projectlink">
+                <div class="project">
+                  <img src="img/greenTide_cover.png" class="img zoom" alt="Exiled">
+                  <div class="project_gradiant zoom ">
+                    <h1 class="projectname move">Green Tide</h1>
                     <h2 class="description movedes">
                       You are a adventurer, your goal kill Orcs to obtained gold and stuff to kill more orcs
                     </h2>
                   </div>
-                  </div>
-                </a>
-                <a href="" class="projectlink">
-                  <div class="project">
-                    <img src="img/Heist_Cover.png" class="img zoom" alt="Exiled">
-                    <div class="project_gradiant zoom ">
-                     <h1 class="projectname move">H.E.I.S.T</h1>
+                </div>
+              </a>
+              <a href="HEIST.html" class="projectlink">
+                <div class="project">
+                  <img src="img/Heist_Cover.png" class="img zoom" alt="Exiled">
+                  <div class="project_gradiant zoom ">
+                    <h1 class="projectname move">H.E.I.S.T</h1>
                     <h2 class="description movedes">
                       You are a thief, obtain contract and honored them to become the richest thief.
                     </h2>
                   </div>
-                  </div>
-                </a>
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -109,6 +112,11 @@
           </div>
         </div>
       </div>
+      <div class="particles-r" id="particles-jsr"></div>
     </div>
+    <script>
+      particlesJS.load('particles-jsr', 'particle_index_cfg.json');
+      particlesJS.load('particles-jsl', 'particle_index_cfg.json');
+    </script>
   </body>
 </html>

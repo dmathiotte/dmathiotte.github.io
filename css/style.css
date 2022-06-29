@@ -12,7 +12,7 @@
 {
     display: flex;
     flex-direction: column;
-    background-color: rgb(232, 232, 232);
+    background-color: rgba(232, 232, 232, 0);
 }
 
 .containerheader
@@ -80,7 +80,7 @@
 
 .header
 {
-    background: linear-gradient(blueviolet, #800080) ;
+    background: linear-gradient(grey, rgb(202, 202, 202)) ;
     font-size:30px;
     color: white;
     display: flex;
@@ -114,7 +114,7 @@
     white-space: nowrap;
     margin-left: 10px;
     text-decoration: none;
-    color: #C0C0C0;
+    color: #ffffff;
     -webkit-transition: 1s ease;
     transition: 1s ease;
     border-radius: 10px;
@@ -187,7 +187,7 @@ iframe
     -webkit-transition: 1.5s ease;
     -o-transition: 1.5s ease;
     transition: 1.5s ease;
-    color: lightgray;
+    color: rgb(232, 232, 232);
 }
 .project:hover .movedes
 {
@@ -216,6 +216,10 @@ iframe
     margin-top: 15px;
     background-clip: padding-box;
     border-radius: 10px;
+    border-style: double;
+    border: 5px;
+    border-color: gray;
+    backdrop-filter: blur(5px);
 }
 
 
@@ -288,8 +292,6 @@ iframe
     margin-top: 12px;
 }
 
-
-
 .details
 {
     display: flex;
@@ -343,6 +345,8 @@ iframe
 .main
 {
     grid-area: main;
+    backdrop-filter: blur(5px);
+    background-color: rgba(172, 172, 172, 0.445);
 }
 
 #particles-js {
@@ -352,19 +356,43 @@ iframe
 
 .test
 {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    display: grid;
+    grid-template-areas: "l main r";
+    grid-template-columns: 1f 8f 1f;
 }
 
 .particles-l
 {
     grid-area: l;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
 }
 
 .particles-r
 {
     grid-area: r;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.exiled
+{
+    background-image: url('../img/Capture.PNG');
+    background-attachment: fixed;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+}
+
+.greentide
+{
+    background-image: url('../img/GreenTideBackGround.PNG');
+    background-attachment: fixed;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+}
+
+.heist
+{
+    background-image: url('../img/HEISTBackground.PNG');
+    background-attachment: fixed;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
 }
