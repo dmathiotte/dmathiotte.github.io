@@ -3,7 +3,7 @@
   <head>
    <meta charset="utf-8">
    <link rel="stylesheet" href="css/reset.css">
-   <title>Exiled</title>
+   <title>Damien Mathiotte - Exiled</title>
    <link rel="stylesheet" href="css/style.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -79,7 +79,7 @@
                 <li>Team of 15</li>
                 <li>2 programmers</li>
                 <li>Role: Gameplay programmer</li>
-                <li>Duration: 8 months (january 2022 - August 2022)</li>
+                <li>Duration: 8 months (production)(january 2022 - August 2022)</li>
               </div>
             </div>
           </div>
@@ -89,8 +89,9 @@
             <div class="maincontent">
               <h1 class="title" id="Me">About Exiled</h1>
               <p class="content"> 
-                <i>Exiled</i> is a action-RPG. You played an Exiled who need to kill the demon. <br>
-                During, your journey you will receive the favor of gods.
+                Handle a mythic and powerful sword to overcome your enemies, 
+                seek the help of other gods to <b>empower</b> yourself and <b>explore</b> 
+                the world to find its <b>secrets</b> and the way to your final <b>battle</b>.
               </p>
             </div>
           </div>
@@ -100,11 +101,40 @@
             <div class="maincontent">
               <h1 class="title" id="Me">My work</h1>
               <p class="content"> 
-                On this project I was <b>gameplay programmer</b>. <br>
-                I mainly worked on the <b>character</b> and his capacity. <br>
+                On this project I was <b>gameplay programmer</b>. 
+                I mainly worked on the <b>character</b> and his capacity. 
               </p>
               <p class="content"> 
-                My fist main task was to create a lock system. <br>
+                My first main task was to create a <b>lock system</b>. <br>
+                <br>
+                <img class="gif_desc" src="img/Exiled_Lock.gif" alt=""> <br>
+                <br>
+                When the player start locking, 
+                the system placed the potential targets in 2 categories depends on the distance : 
+                <b>close</b> target and <b>distant</b> target.
+                The system check the second category <b>only</b> if the first one is <b>empty</b>. <br>
+                <br>
+                <img class="gif_desc" src="img/Exiled_CloseTarget.gif" alt=""> <br>
+                <br>
+                After this the system calculate the angle between the front of the player and a target and saves it, 
+                and do the same for all the potential targets in the category.
+                Finally the system take the lower angle to select the target. <br>
+                <br>
+                <img class="gif_desc" src="img/Exiled_SelectTarget.gif" alt=""> <br>
+                <br>
+                During the lock the player can switch between targets. <br>
+                <br>
+                <img src="img/Exiled_SwitchTarget.gif" alt="" class="gif_desc"> <br>
+                <br>
+              </p>
+              <p class="content">
+                My third task was to create the <b>mask</b> system and their behaviour<br>
+                <br>
+                <img src="" alt="" class="gif_desc"> <br>
+                <br>
+
+                A Mask is an equipment gived by a God.
+                All mask have at least 1 passive and 1 active.
               </p>
             </div>
           </div>
