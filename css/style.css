@@ -80,7 +80,7 @@
 
 .header
 {
-    background: linear-gradient(grey, rgb(202, 202, 202)) ;
+    background: linear-gradient(rgb(37, 37, 37), #414141) ;
     font-size:30px;
     color: white;
     display: flex;
@@ -124,7 +124,7 @@
 }
 .navigation:hover 
 {
-    color:#800080;
+    color:rgb(65,65,65);
     background-color: white;
 }
 
@@ -174,7 +174,7 @@ iframe
     width: 420px;
     background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.39) 95%);
     opacity: 0.4;
-    transform: translate(40px, -297px);
+    transform: translate(40px, -303px);
     -webkit-transition: 1.5s ease;
     -o-transition: 1.5s ease;
     transition: 1.5s ease;
@@ -183,9 +183,9 @@ iframe
 .project:hover .project_gradiant
 {
     opacity: 1;
-    -webkit-transform: translate(0px, -355px);
-    -o-transform: translate(0px, -355px);
-    transform: translate(0px, -355px);
+    -webkit-transform: translate(0px, -360px);
+    -o-transform: translate(0px, -360px);
+    transform: translate(0px, -360px);
 }
 
 .movedes
@@ -206,12 +206,21 @@ iframe
     transform: translate(0px, 70px);
 }
 
+.logo
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+}
+
 .content
 {
     font-size: 25px;
     margin-top: 25px;
     text-align:center;
     overflow-wrap: break-word;
+    text-decoration: none;
+    color: white;
 }
 
 .maincontents 
@@ -235,11 +244,11 @@ iframe
 .projects 
 {
     margin: 15px;
-    justify-content: center;
     display: grid;
     grid-gap: 45px;
     grid-template-columns: repeat(auto-fill, 500px);
     grid-template-rows: repeat(auto-fit, 352px);
+    justify-content: center;
 }
 
 .project
@@ -256,7 +265,7 @@ iframe
 {
     width: 500px;
     height: 352px;
-    border-radius: 20px;
+    border-radius: 25px;
 }
 
 .space 
@@ -301,12 +310,27 @@ iframe
     margin-top: 12px;
 }
 
+.photo
+{
+    height: 25%;
+    width: 25%;
+    margin-left: 3em;
+    border-radius: 25px;
+}
+
+.about_desc
+{
+    font-size: 25px;
+    margin-left: 1em;
+    margin-right: 3em;
+}
+
 .details
 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    margin-top: 3em;
+    justify-content: space-around;
+    margin-top: 2em;
 }
 
 .detailsList
@@ -315,6 +339,11 @@ iframe
     margin-right: 35px;
     font-size: 25px;
     font-weight: 400;
+}
+
+li
+{
+    margin-top: 5px;
 }
 
 .catname
@@ -354,8 +383,10 @@ iframe
 .main
 {
     grid-area: main;
-    backdrop-filter: blur(5px);
-    background-color: rgba(172, 172, 172, 0.445);
+    backdrop-filter: blur(3px);
+    background-color: rgba(0, 0, 0, 0.322);
+    color: white;
+    line-height: 1.75em;
 }
 
 #particles-js {
@@ -413,4 +444,26 @@ iframe
     background-color: #ffffff;
     background-repeat: no-repeat;
     background-size: cover;
+    backdrop-filter: blur(2px) ;
+}
+
+.link
+{
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #cacaca;
+    text-decoration: none;
+}
+.link:hover
+{
+    color: #ffffff;
+}
+
+.badge
+{
+    width: 300px;
+    height: 92px;
 }
