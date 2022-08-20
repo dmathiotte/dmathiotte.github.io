@@ -419,6 +419,7 @@ li
     background-attachment: fixed;
     background-color: #ffffff;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .greentide
@@ -427,6 +428,7 @@ li
     background-attachment: fixed;
     background-color: #ffffff;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .heist
@@ -435,6 +437,7 @@ li
     background-attachment: fixed;
     background-color: #ffffff;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .index
