@@ -449,6 +449,16 @@ li
     backdrop-filter: blur(2px) ;
 }
 
+.projet_H
+{
+   /* background-image: url('../img/indexbackgroung.PNG');*/
+    background-attachment: fixed;
+    background-color: #313131;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(2px) ;
+}
+
 .link
 {
     font-size: 20px;
