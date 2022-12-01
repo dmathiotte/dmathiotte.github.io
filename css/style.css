@@ -301,6 +301,7 @@ iframe
     -o-transform: translate(0px, -240px);
     transform: translate(0px, -240px);
 }
+
 .img
 {
     border-radius: 35px;
@@ -328,7 +329,7 @@ iframe
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 2em;
 }
 
@@ -466,16 +467,26 @@ li
     display: flex;
     flex-direction: column;
     text-align: center;
-    color: #cacaca;
+    color: #adadad;
     text-decoration: none;
+    
+    margin-left: 1em;
+    margin-right: 1em;
 }
 .link:hover
 {
     color: #ffffff;
 }
 
-.badge
+
+.badgeItch
 {
-    width: 300px;
-    height: 92px;
+    max-width: 500px;
+    max-height: 153px;
+}
+
+.badgeGitHub
+{
+    width: 153px;
+    height: 153px;
 }
