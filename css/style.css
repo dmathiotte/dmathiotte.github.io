@@ -134,6 +134,7 @@
     height: 100%;
     font-family:'Poppins', sans-serif;
     font-weight: 200;
+    grid-area: main;
 }
 
 iframe
@@ -404,13 +405,13 @@ li
 .particles-l
 {
     grid-area: l;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(0, 0, 0, 0.55);
 }
 
 .particles-r
 {
     grid-area: r;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(0, 0, 0, 0.55);
 }
 
 .exiled
